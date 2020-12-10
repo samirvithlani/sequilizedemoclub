@@ -1,0 +1,27 @@
+POST http://localhost:3000/employee/
+Content-Type: application/json
+
+{
+    "ename":"hem",
+    "eemail":"hem`@gmail.com"
+}
+
+###
+GET http://localhost:3000/employee/
+
+###
+
+GET http://localhost:3000/employee/1
+
+###
+DELETE http://localhost:3000/employee/hem
+
+###
+
+POST http://localhost:3000/employee/update/3
+
+Content-Type: application/json
+{
+    "ename":"margin",
+    "eemail":"margin@gmail.com"
+}
