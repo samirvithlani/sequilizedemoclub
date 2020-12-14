@@ -5,6 +5,7 @@ app.use(express.json())
 const db = require('./model')
 db.sequelize.sync();
 require('./routes/employeeRoutes')(app)
+require('./routes/employeedummyRoutes')(app)
 
 
 app.listen(3000, () => {

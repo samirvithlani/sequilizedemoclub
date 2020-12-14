@@ -23,5 +23,6 @@ db.Sequelize = Sequelize;
 db.sequelize =sequelize;
 
 db.employee =require('./employeeModel')(sequelize,Sequelize);
+db.employee_dummy = require('./Employee_dummy')(sequelize,Sequelize);
 module.exports = db
 
