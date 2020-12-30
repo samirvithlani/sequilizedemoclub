@@ -29,3 +29,29 @@ Content-Type: application/json
 ###
 POST http://localhost:3000/emp/createemployee
 
+
+###
+GET http://localhost:3000/empapi
+
+###
+GET http://localhost:3000/empapi/coronadata
+
+###
+GET http://localhost:3000/empapi/postemp
+
+###
+GET http://localhost:3000/empapi/postuser
+###
+
+POST  http://localhost:3000/empapi/post
+
+Content-Type: application/json
+{
+    "gender":"Male",
+    "status":"Active",
+    "email":"hem@gmail.com"
+}
+
+###
+GET http://localhost:3000/empapi/deleteusern
+
